@@ -11,9 +11,5 @@ router.post('/', function(req, res, next) {
   res.json(req.body);
 });
 
-app.post('/webhook', function(req, res) {
-
-});
-
 
 module.exports = router;
